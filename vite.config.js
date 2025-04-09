@@ -13,5 +13,5 @@ import { ghPages } from 'vite-plugin-gh-pages'
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/<repository-name>/', // Replace <repository-name> with your GitHub repo name
+  base: '/Weather_App/', // Replace <repository-name> with your GitHub repo name
 })
